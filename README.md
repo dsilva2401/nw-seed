@@ -2,31 +2,47 @@ Angular Webpack Seed
 =======================
 
 ## Requirements
-- npm
-- gulp
+	- npm
+	- gulp
 
 ## Getting started
 
-#### Installation
-```bash
-# npm dependencies
-npm install
-```
+	#### Installation
+		```bash
+			# npm dependencies
+			npm install
+		```
 
-#### Serve app
-```bash
-gulp serve
-```
+	#### Serve app
+		```bash
+			gulp serve
+		```
 
-#### Build app
-```bash
-gulp build
-```
+	#### Start NW App
+		```bash
+			gulp start
+		```
+
+	#### Start NW App with debugger
+		```bash
+			gulp start:dev
+		```
+
+	#### Build app
+		```bash
+			gulp build:[platform]
+
+			# Example
+			gulp build:osx64
+
+			# Available platforms
+			# win32, win64, osx32, osx64, linux32, linux64
+		```
 
 ## Documentation
 
-#### [Classes](docs/classes.md)
+	#### [Classes](docs/classes.md)
 
-#### [Components](docs/components.md)
+	#### [Components](docs/components.md)
 
-#### [Services](docs/services.md)
+	#### [Services](docs/services.md)
