@@ -9,17 +9,18 @@
   "author": "",
   "devDependencies": {
     "css-loader": "^0.23.1",
+    "fs-extra": "^0.30.0",
     "gulp": "^3.9.1",
     "gulp-param": "^1.0.3",
     "html-loader": "^0.4.3",
+    "nw": "^0.15.1-sdk",
+    "nw-builder": "^2.2.0",
+    "nwjs": "^1.4.2",
     "open": "0.0.5",
     "shelljs": "^0.7.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1",
-    "nw": "^0.15.0-rc2",
-    "nw-builder": "^2.2.0",
-    "fs-extra": "^0.30.0"
+    "webpack-dev-server": "^1.14.1"
   },
   "license": "ISC",
   "dependencies": {
