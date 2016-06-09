@@ -1,5 +1,5 @@
-Angular Webpack Seed
-=======================
+NW Seed
+=======
 
 ## Requirements
 - npm

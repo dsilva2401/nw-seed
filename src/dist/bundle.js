@@ -69,6 +69,11 @@
 		__webpack_require__(10)(app);
 
 
+	// Import Classes
+
+		__webpack_require__(14)(app);
+
+
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
@@ -35734,7 +35739,6 @@
 	module.exports = function () {
 		return {
 			restrict: 'EA',
-			// templateUrl: 'app/app.html',
 			template: __webpack_require__(8),
 			controller: __webpack_require__(9)
 		}
@@ -35768,13 +35772,22 @@
 
 	module.exports = function (app) {
 
-		app.factory('network', __webpack_require__(11));
-		app.factory('ui', __webpack_require__(12));
+		app.factory('libs', __webpack_require__(11));
+		app.factory('network', __webpack_require__(12));
+		app.factory('ui', __webpack_require__(13));
 
 	}
 
 /***/ },
 /* 11 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = function () {
+		return __webpack_require__(1);
+	}
+
+/***/ },
+/* 12 */
 /***/ function(module, exports) {
 
 	module.exports = function ($window) {
@@ -35814,7 +35827,7 @@
 	}
 
 /***/ },
-/* 12 */
+/* 13 */
 /***/ function(module, exports) {
 
 	module.exports = function () {
@@ -35857,6 +35870,16 @@
 			}
 
 		return ui;
+	}
+
+/***/ },
+/* 14 */
+/***/ function(module, exports) {
+
+	module.exports = function (app) {
+
+		// app.factory('myclass', require('./myclass.factory.js'));
+		
 	}
 
 /***/ }

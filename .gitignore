@@ -28,3 +28,14 @@ node_modules
 
 # Build
 build
+
+# Cache
+cache
+.cache
+
+# Build
+src/dist
+
+# DS_Store files
+.DS_Store
+**/.DS_Store
